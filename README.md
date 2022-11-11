@@ -7,4 +7,4 @@
   ## Task1.1
  ## Task2.1 Given a three number,program have to count haw many posative number between then
  ## Task3.1 The number is given,write a progran which show a number from one till n then reverse it
-task4.1 the  two numbers are given, write a program which count sum and squares of all integer numbers from A to B
+        task4.1 the  two numbers are given, write a program which count sum and squares of all integer numbers from A to B
