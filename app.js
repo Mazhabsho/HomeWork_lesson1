@@ -4,7 +4,7 @@ let b,c;
 b = Math.floor(a/60%24);
 c = a%60;
 console.log(`${b} ${c}`);
-
+*/
 2. // noll 
 let n = +prompt("inter  your namber");
 let h,m,s;
@@ -13,7 +13,7 @@ let h,m,s;
  s = n%60;
 
  console.log(`${h}  ${m}   ${s} `);
-
+/*
 3. // khato
 let a = +prompt("inter  your namber");
 let b = +prompt("inter  your namber");
@@ -37,10 +37,25 @@ b = h1*3600+m1*60+s1;
 c = b-a;
 console.log(c);
 
-
 //duym list
-1.
 
+let p=0;
+let n=+prompt("inter your number")
+for(let i=n; i>0; i/=10)
+{
+
+    p=p*10+i%10;
+}
+if(p  ==n)
+{
+    console.log ("Yes");
+
+}
+else
+{
+    console.log ("No");
+}
+/*
 2.
 let a= +prompt("inter  your namber");
 let b = +prompt("inter  your namber");
@@ -63,7 +78,7 @@ for(let i = n; i>0;i--){
     console.log(i);
 }
 
-4.*/
+4.
 let a = +prompt("inter  your namber");
 let b = +prompt("inter  your namber");
 let sum = 0;
@@ -71,4 +86,4 @@ let sum = 0;
 for(let i=a;i<=b;i++){
   sum+=(i*i);
 }
-console.log(sum);
+console.log(sum);-*/
